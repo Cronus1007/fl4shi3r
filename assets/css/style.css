@@ -5743,3 +5743,82 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
+.dropbutton {
+  background-color: #ff5f13;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff5f13;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #e6ece6;}
+
+.button-contact 
+
+
+{
+
+  background-color: #ff5f13;
+  color: white; 
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 10px; 
+  @media only screen and (min-width:321px) and (max-width:480px) { }
+  
+  /* background-color: #ff5f13;
+  
+  border-radius: 10px;
+  max-height: fit-content;
+  z-index: 1;
+  width: 100px; */
+}
+.button-home 
+
+
+{
+
+  background-color: #ff5f13;
+  color: white; 
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 10px; 
+  @media only screen and (min-width:321px) and (max-width:480px) { }
+}
+
+.button-about 
+
+
+{
+
+  background-color: #ff5f13;
+  color: white; 
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 10px; 
+  @media only screen and (min-width:321px) and (max-width:480px) { }
+}
+
