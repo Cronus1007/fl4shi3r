@@ -2239,7 +2239,8 @@ hero-btn {
   padding: 0 !important;
 }
 .slider-height {
-  background-image: url(../img/hero/h1_hero.jpg);
+  /* background-image: url(../img/hero/h1_hero.jpg); */
+  background: linear-gradient(rgb(174, 199, 255), rgb(223, 152, 255));
   min-height: 1080px;
   background-repeat: no-repeat;
   background-position: center center;
