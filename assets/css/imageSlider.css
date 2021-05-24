@@ -1,23 +1,24 @@
 .slideshow{
-    /* margin-left: 500px;
-    margin-top: 30px;
+    /* margin-left: 500px; */
+    /* margin-top: 30px; */
     height: 300px;
-    width: 100%;
-    margin-bottom: 120px; */
-    border-radius: 10%;
+    /* width: 100%; */
+    /* margin-bottom: 120px; */
+    /* border-radius: 10%; */
     color: wheat;
-    background-image: url('http://lorempixel.com/200/200/city/9');
-    /* width: 200px;
-    height: 200px; */
+    /* background-image: url('http://lorempixel.com/200/200/city/9'); */
+    /* width: 200px; */
+    height: 100%;
     /* you need to match the shadow color to your background or image border for the desired effect*/
     box-shadow: 0 0 8px 8px white inset;
 }
 .slideshow {
     position: relative;
-    height: 100%;
+    /* height: 100%; */
     z-index: 1;
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
+    height: 800px;
   }
 
   .slideshowContainer {
@@ -25,7 +26,7 @@
     overflow: hidden;
     margin: 50px 0 75px;
     width: 100%;
-    height: 500px;
+    /* height: 100%; */
     color: wheat;
     font-family: 'Zilla Slab Highlight', cursive;
   }
@@ -33,7 +34,7 @@
   .imageSlides {
     position: absolute;
     left: 50%;
-    top: 50%;
+    /* top: 50%; */
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
