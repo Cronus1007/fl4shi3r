@@ -1,0 +1,100 @@
+.slideshow{
+    /* margin-left: 500px; */
+    /* margin-top: 30px; */
+    /* height: 300px; */
+    /* width: 100%; */
+    /* margin-bottom: 120px; */
+    /* border-radius: 10%; */
+    /* color: wheat; */
+    /* background-image: url('http://lorempixel.com/200/200/city/9'); */
+    /* width: 200px; */
+    height: 100%;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    /* box-shadow: 0 0 8px 8px white inset; */
+}
+.slideshow {
+    position: relative;
+    /* height: 100%; */
+    z-index: 1;
+    /* height: 100px; */
+    width: 100%;
+    height: 400%;
+  }
+
+  .slideshowContainer {
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0 75px;
+    width: 195%;
+    /* height: 100%; */
+    /* color: wheat; */
+    font-family: 'Zilla Slab Highlight', cursive;
+  }
+  
+  .imageSlides {
+    position: absolute;
+    left: 50%;
+    /* top: 50%; */
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: -1;
+  }
+  
+  /* add 'visible' class via Javascript */
+  .visible {
+    opacity: 1;
+  }
+  
+  .slideshowArrow {
+    font-size: 7em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .slideshowArrow:hover {
+    opacity: 0.75;
+
+  }
+  
+  #leftArrow {
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #rightArrow {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+  
+  .slideshowCircles {
+    position: absolute;
+    /* bottom: 2%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+  }
+  
+  .circle {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    transition: 1s ease-in-out;
+  }
+  
+  .dot {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+  }
