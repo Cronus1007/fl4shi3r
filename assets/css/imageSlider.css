@@ -29,12 +29,20 @@
     /* height: 100%; */
     /* color: wheat; */
     font-family: 'Zilla Slab Highlight', cursive;
+<<<<<<< HEAD
+=======
+    overflow-x: hidden;
+>>>>>>> d9e328c806f8971166059aee464275a602f3c332
   }
   
   .imageSlides {
     position: absolute;
     left: 50%;
     /* top: 50%; */
+<<<<<<< HEAD
+=======
+
+>>>>>>> d9e328c806f8971166059aee464275a602f3c332
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
@@ -62,14 +70,22 @@
   
   #leftArrow {
     position: absolute;
+<<<<<<< HEAD
     left: 3%;
+=======
+    left: 1%;
+>>>>>>> d9e328c806f8971166059aee464275a602f3c332
     top: 50%;
     transform: translate(-50%, -50%);
   }
   
   #rightArrow {
     position: absolute;
+<<<<<<< HEAD
     right: 3%;
+=======
+    right: 1%;
+>>>>>>> d9e328c806f8971166059aee464275a602f3c332
     top: 50%;
     transform: translate(50%, -50%);
   }
