@@ -1958,6 +1958,7 @@ hero-btn {
   font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 17px;
+  margin-top: 10vh;
 }
 .section-tittle h2 {
   font-size: 50px;
@@ -2597,6 +2598,7 @@ hero-btn {
   transition: all 0.4s ease-out 0s;
   position: relative;
   z-index: 1;
+  height: 85vh;
 }
 @media (max-width: 575px) {
   .categories-area .single-cat {
@@ -5744,17 +5746,19 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
-.dropbutton {
+/*.dropbutton {
   background-color: #ff5f13;
   color: white;
   padding: 16px;
   font-size: 16px;
   border-radius: 10px;
-}
+} */
 
 .dropdown {
   position: relative;
   display: inline-block;
+  color: white;
+  margin-left: 10px;
 }
 
 .dropdown-content {
@@ -5778,48 +5782,4 @@ del {
 
 .dropdown:hover .dropbtn {background-color: #e6ece6;}
 
-.button-contact 
-
-
-{
-
-  background-color: #ff5f13;
-  color: white; 
-  padding: 16px;
-  font-size: 16px;
-  border-radius: 10px; 
-  @media only screen and (min-width:321px) and (max-width:480px) { }
-  
-  /* background-color: #ff5f13;
-  
-  border-radius: 10px;
-  max-height: fit-content;
-  z-index: 1;
-  width: 100px; */
-}
-.button-home 
-
-
-{
-
-  background-color: #ff5f13;
-  color: white; 
-  padding: 16px;
-  font-size: 16px;
-  border-radius: 10px; 
-  @media only screen and (min-width:321px) and (max-width:480px) { }
-}
-
-.button-about 
-
-
-{
-
-  background-color: #ff5f13;
-  color: white; 
-  padding: 16px;
-  font-size: 16px;
-  border-radius: 10px; 
-  @media only screen and (min-width:321px) and (max-width:480px) { }
-}
 
