@@ -29,12 +29,14 @@
     /* height: 100%; */
     /* color: wheat; */
     font-family: 'Zilla Slab Highlight', cursive;
+    overflow-x: hidden;
   }
   
   .imageSlides {
     position: absolute;
     left: 50%;
     /* top: 50%; */
+
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
@@ -62,14 +64,14 @@
   
   #leftArrow {
     position: absolute;
-    left: 3%;
+    left: 1%;
     top: 50%;
     transform: translate(-50%, -50%);
   }
   
   #rightArrow {
     position: absolute;
-    right: 3%;
+    right: 1%;
     top: 50%;
     transform: translate(50%, -50%);
   }
