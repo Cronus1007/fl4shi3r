@@ -2598,7 +2598,7 @@ hero-btn {
   transition: all 0.4s ease-out 0s;
   position: relative;
   z-index: 1;
-  height: 85vh;
+  height: 115vh;
 }
 @media (max-width: 575px) {
   .categories-area .single-cat {
