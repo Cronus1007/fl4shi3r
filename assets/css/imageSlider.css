@@ -1,16 +1,16 @@
 .slideshow{
     /* margin-left: 500px; */
     /* margin-top: 30px; */
-    height: 300px;
+    /* height: 300px; */
     /* width: 100%; */
     /* margin-bottom: 120px; */
     /* border-radius: 10%; */
-    color: wheat;
+    /* color: wheat; */
     /* background-image: url('http://lorempixel.com/200/200/city/9'); */
     /* width: 200px; */
     height: 100%;
     /* you need to match the shadow color to your background or image border for the desired effect*/
-    box-shadow: 0 0 8px 8px white inset;
+    /* box-shadow: 0 0 8px 8px white inset; */
 }
 .slideshow {
     position: relative;
@@ -18,16 +18,16 @@
     z-index: 1;
     /* height: 100px; */
     width: 100%;
-    height: 800px;
+    height: 400%;
   }
 
   .slideshowContainer {
     position: relative;
     overflow: hidden;
     margin: 50px 0 75px;
-    width: 100%;
+    width: 195%;
     /* height: 100%; */
-    color: wheat;
+    /* color: wheat; */
     font-family: 'Zilla Slab Highlight', cursive;
   }
   
@@ -62,14 +62,14 @@
   
   #leftArrow {
     position: absolute;
-    left: 4%;
+    left: 3%;
     top: 50%;
     transform: translate(-50%, -50%);
   }
   
   #rightArrow {
     position: absolute;
-    right: 4%;
+    right: 3%;
     top: 50%;
     transform: translate(50%, -50%);
   }
