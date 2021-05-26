@@ -154,10 +154,10 @@
     <main>
       <!--? slider Area Start-->
       <div class="slider-area">
-        <div class="slider-active" >
+        <div class="slider-active">
           <!-- Single Slider -->
           <div class="single-slider slider-height d-flex align-items-center">
-            <div class="container" >
+            <div class="container">
               <div class="row">
                 <div class="col-xl-12 col-lg-12">
                   <!-- <div class="hero__caption">
@@ -186,20 +186,22 @@
                   <div class="slideshow">
                     <img
                       class="imageSlides slideshowContainer"
-                      src="assets/img/gallery/1.png"
-                      width="100%"
-                      alt="beach side city view"
-                    />
-                    <img
-                      class="imageSlides slideshowContainer"
-                      src="assets/img/gallery/2.png"
-                      alt="leaf on the ground"
+                      src="assets/img/SliderImages/1.jpg"
                       width="100%"
                     />
                     <img
                       class="imageSlides slideshowContainer"
-                      src="assets/img/gallery/3.png"
-                      alt="lake surrounded by mountains"
+                      src="assets/img/SliderImages/2.jpg"
+                      width="100%"
+                    />
+                    <img
+                      class="imageSlides slideshowContainer"
+                      src="assets/img/SliderImages/3.jpg"
+                      width="100%"
+                    />
+                    <img
+                      class="imageSlides slideshowContainer"
+                      src="assets/img/SliderImages/4.jpg"
                       width="100%"
                     />
 
@@ -210,104 +212,9 @@
                       <span class="circle dot"></span>
                       <span class="circle"></span>
                       <span class="circle"></span>
+                      <span class="circle"></span>
                     </div>
                   </div>
-
-                  <script>
-                    // IMAGE SLIDES & CIRCLES ARRAYS, & COUNTER
-                    var imageSlides =
-                      document.getElementsByClassName("imageSlides");
-                    var circles = document.getElementsByClassName("circle");
-                    var leftArrow = document.getElementById("leftArrow");
-                    var rightArrow = document.getElementById("rightArrow");
-                    var counter = 0;
-
-                    // HIDE ALL IMAGES FUNCTION
-                    function hideImages() {
-                      for (var i = 0; i < imageSlides.length; i++) {
-                        imageSlides[i].classList.remove("visible");
-                      }
-                    }
-
-                    // REMOVE ALL DOTS FUNCTION
-                    function removeDots() {
-                      for (var i = 0; i < imageSlides.length; i++) {
-                        circles[i].classList.remove("dot");
-                      }
-                    }
-
-                    // SINGLE IMAGE LOOP/CIRCLES FUNCTION
-                    function imageLoop() {
-                      var currentImage = imageSlides[counter];
-                      var currentDot = circles[counter];
-                      currentImage.classList.add("visible");
-                      removeDots();
-                      currentDot.classList.add("dot");
-                      counter++;
-                    }
-
-                    // LEFT & RIGHT ARROW FUNCTION & CLICK EVENT LISTENERS
-                    function arrowClick(e) {
-                      var target = e.target;
-                      if (target == leftArrow) {
-                        clearInterval(imageSlideshowInterval);
-                        hideImages();
-                        removeDots();
-                        if (counter == 1) {
-                          counter = imageSlides.length - 1;
-                          imageLoop();
-                          imageSlideshowInterval = setInterval(
-                            slideshow,
-                            10000
-                          );
-                        } else {
-                          counter--;
-                          counter--;
-                          imageLoop();
-                          imageSlideshowInterval = setInterval(
-                            slideshow,
-                            10000
-                          );
-                        }
-                      } else if (target == rightArrow) {
-                        clearInterval(imageSlideshowInterval);
-                        hideImages();
-                        removeDots();
-                        if (counter == imageSlides.length) {
-                          counter = 0;
-                          imageLoop();
-                          imageSlideshowInterval = setInterval(
-                            slideshow,
-                            10000
-                          );
-                        } else {
-                          imageLoop();
-                          imageSlideshowInterval = setInterval(
-                            slideshow,
-                            10000
-                          );
-                        }
-                      }
-                    }
-
-                    leftArrow.addEventListener("click", arrowClick);
-                    rightArrow.addEventListener("click", arrowClick);
-
-                    // IMAGE SLIDE FUNCTION
-                    function slideshow() {
-                      if (counter < imageSlides.length) {
-                        imageLoop();
-                      } else {
-                        counter = 0;
-                        hideImages();
-                        imageLoop();
-                      }
-                    }
-
-                    // SHOW FIRST IMAGE, & THEN SET & CALL SLIDE INTERVAL
-                    setTimeout(slideshow, 1000);
-                    var imageSlideshowInterval = setInterval(slideshow, 2000);
-                  </script>
                 </div>
             </div>
           </div>
@@ -458,7 +365,6 @@
                             </h2>
                             <h4>— Napoleon Hill</h4>
                           </div>
-                          
                         <!--  <a href="about.html" class="btn">More About Us</a> -->
                       </div>
                   </div>
@@ -535,6 +441,7 @@
                               <img src="./assets/img/team/download.jpg" alt="">
                               <div class="team-caption">
                                   <h3>
+
                                       <a href="#">Prince Christopher</a>
                                   </h3>
                                   <p>Manager</p>
@@ -563,7 +470,7 @@
                       <!-- Section Tittle -->
                       <div class="section-tittle section-tittle2 mb-25">
                           <!-- <span>Clients Testimonials</span> -->
-                          <h2>What Our Director Say!</h2>
+                          <h2>What Our Directors Say!</h2>
                       </div>
                       <div class="h1-testimonial-active mb-70">
                           <!-- Single Testimonial -->
@@ -847,6 +754,9 @@
   <!-- Jquery Plugins, main Jquery -->
   <script src="./assets/js/plugins.js"></script>
   <script src="./assets/js/main.js"></script>
+
+  <!-- Image Slider -->
+  <script src="assets/js/imageslider.js"></script>
 </body>
 
 </html>
