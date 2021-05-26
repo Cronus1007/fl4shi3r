@@ -2242,7 +2242,7 @@ hero-btn {
 .slider-height {
   /* background-image: url(../img/hero/h1_hero.jpg); */
   background: linear-gradient(rgb(174, 199, 255), rgb(223, 152, 255));
-  min-height: 1080px;
+  min-height: 800px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
