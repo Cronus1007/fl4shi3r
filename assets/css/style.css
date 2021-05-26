@@ -2931,6 +2931,7 @@ hero-btn {
 }
 .team-area .single-team .team-img img {
   width: 100%;
+  height: 100%;
 }
 .team-area .single-team .team-caption {
   position: absolute;
@@ -5781,5 +5782,7 @@ del {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #e6ece6;}
+
+
 
 
