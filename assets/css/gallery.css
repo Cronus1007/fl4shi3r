@@ -35,6 +35,7 @@ body {
 	opacity: 1;
   display: inline-block;
   width: 100%;
+  border-radius: 25px;
 	
 	-webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
