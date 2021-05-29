@@ -2512,11 +2512,22 @@ hero-btn {
   right: 47px;
   top: 0px;
 }
+.about-font-img img{
+  margin-top: 15%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-low-area .about-img .about-font-img {
     position: unset;
   }
+  .about-font-img img{
+    margin-top: 1%;
+  }
+
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-low-area .about-img .about-font-img {
     position: unset;
@@ -2932,6 +2943,7 @@ hero-btn {
 .team-area .single-team .team-img img {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 .team-area .single-team .team-caption {
   position: absolute;
