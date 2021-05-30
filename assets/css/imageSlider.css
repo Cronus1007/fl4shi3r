@@ -90,4 +90,10 @@
   #sliderText label{
     font-size: 2rem;
   }
+  #leftArrow {
+    left: 5%;
+  }
+  #rightArrow {
+    right: 5%;
+  }
 }
