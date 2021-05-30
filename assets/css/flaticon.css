@@ -28,9 +28,42 @@
 font-style: normal;
 }
 
-.flaticon-shipped:before { content: "\f100"; }
+/* .flaticon-shipped:before { content: "\f100"; }
 .flaticon-ship:before { content: "\f101"; }
 .flaticon-plane:before { content: "\f102"; }
 .flaticon-support:before { content: "\f103"; }
 .flaticon-clock:before { content: "\f104"; }
-.flaticon-place:before { content: "\f105"; }
+.flaticon-place:before { content: "\f105"; } */
+.flaticon-construction-tool-vehicle-with-crane-lifting-materials:before {
+  content: "\f101";
+}
+.flaticon-electric:before {
+  content: "\f102";
+}
+.flaticon-computer:before {
+  content: "\f103";
+}
+.flaticon-green-energy:before {
+  content: "\f104";
+}
+.flaticon-sun:before {
+  content: "\f105";
+}
+.flaticon-toilet:before {
+  content: "\f106";
+}
+.flaticon-plug:before {
+  content: "\f107";
+}
+.flaticon-india:before {
+  content: "\f108";
+}
+.flaticon-brainstorming:before {
+  content: "\f109";
+}
+.flaticon-no-virus:before {
+  content: "\f10a";
+}
+.flaticon-alcohol:before {
+  content: "\f10b";
+}
