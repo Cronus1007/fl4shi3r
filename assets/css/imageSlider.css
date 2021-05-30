@@ -38,14 +38,14 @@
 
 #leftArrow {
   position: absolute;
-  left: 1%;
+  left: 2%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
 #rightArrow {
   position: absolute;
-  right: 1%;
+  right: 2%;
   top: 50%;
   transform: translate(50%, -50%);
 }
@@ -53,7 +53,7 @@
 .slideshowCircles {
   position: absolute;
   left: 50%;
-  bottom: 10%;
+  bottom: 3%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -63,7 +63,7 @@
   color: white;
   font-family: "Teko", sans-serif;
   font-size: 3rem;
-  top: 80%;
+  bottom: 5%;
   align-items: center;
 }
 
@@ -81,4 +81,13 @@
 .dot {
   background-color: rgba(255, 255, 255, 0.7);
   border: solid 2px rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 795px) {
+  .circle{
+    display: none;
+  }
+  #sliderText label{
+    font-size: 2rem;
+  }
 }
