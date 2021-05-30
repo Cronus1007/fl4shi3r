@@ -58,14 +58,12 @@
   text-align: center;
 }
 
-#sliderText label{
+#sliderText label {
   text-align: center;
-  /* color: #0b1c39; */
   color: white;
   font-family: "Teko", sans-serif;
   font-size: 3rem;
   top: 80%;
-  /* font-size: xx-large; */
   align-items: center;
 }
 
