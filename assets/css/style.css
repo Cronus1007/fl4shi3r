@@ -3257,10 +3257,11 @@ hero-btn {
   color: #ef434d;;
   padding-left: 5px;
 }
-.footer-area .footer-bottom {
-  padding-bottom: 50px;
+/* .footer-area .footer-bottom {
+  /* padding-bottom: 50px;
   padding-top: 20px;
-}
+ } */
+
 .footer-area .footer-bottom .footer-copy-right p {
   color: #bbbcbc;
   font-weight: 300;
