@@ -34,7 +34,7 @@
 }
 .boxed-btn {
   background: #fff;
-  color: #ef434d; !important
+  color: #ef434d !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Teko", sans-serif;
@@ -2222,7 +2222,7 @@ hero-btn {
   top: -34px;
 }
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-  background-color: #ef434d; !important;
+  background-color: #ef434d !important;
 }
 .mobile_menu .slicknav_menu .slicknav_nav {
   margin-top: 9px !important;
