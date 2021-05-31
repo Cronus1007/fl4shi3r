@@ -5811,3 +5811,53 @@ del {
 .dropdown:hover .dropbtn {
   background-color: #e6ece6;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  padding: 7.5px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: #ef434d;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #ef434d;
+}
+.dropdown:hover .dropbtn {
+  background-color: #e6ece6;
+}
+@media (max-width: 990px) {
+  .dropdown {
+    position: inherit;
+    display: contents;
+    color: white;
+    margin-left: 0px;
+  }
+  #navigation {
+    position: relative;
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    overflow: scroll;
+  }
+}
