@@ -2168,7 +2168,7 @@ hero-btn {
   left: 0;
   z-index: 9;
 }
-.header-area .header-top .header-info-right .header-social a i {
+.footer-area .footer-top .footer-info-right .footer-social a i {
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -2180,7 +2180,7 @@ hero-btn {
   -ms-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
 }
-.header-area .header-top .header-info-right .header-social a:hover i {
+.footer-area .footer-top .footer-info-right .footer-social a:hover i {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -5797,6 +5797,11 @@ del {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #e6ece6;}
+
+
+
+
+
 
 
 
