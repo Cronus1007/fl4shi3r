@@ -59,16 +59,22 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 #sliderText label {
+  font-size: 7vh;
   text-align: center;
-  color: white;
   font-family: "Teko", sans-serif;
-  font-size: 3rem;
+}
+#sliderText1 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  float: left;
+  text-shadow: 1px 1px 1px black;
+}
+#sliderText2 {
   bottom: 5%;
   align-items: center;
+  color: #ef434d;
 }
-
 .circle {
   display: inline-block;
   margin-left: 3px;
@@ -86,16 +92,19 @@
 }
 
 @media (max-width: 795px) {
-  .circle{
+  .circle {
     display: none;
-  }
-  #sliderText label{
-    font-size: 2rem;
   }
   #leftArrow {
     left: 5%;
   }
   #rightArrow {
     right: 5%;
+  }
+}
+
+@media (max-width: 885px) {
+  #sliderText label {
+    font-size: 4rem;
   }
 }
