@@ -41,6 +41,7 @@
   left: 2%;
   top: 50%;
   transform: translate(-50%, -50%);
+  display: none;
 }
 
 #rightArrow {
@@ -48,6 +49,7 @@
   right: 2%;
   top: 50%;
   transform: translate(50%, -50%);
+  display: none;
 }
 
 .slideshowCircles {
